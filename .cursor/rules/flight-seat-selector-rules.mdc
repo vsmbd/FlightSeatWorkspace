@@ -1,0 +1,20 @@
+---
+alwaysApply: true
+---
+# Overview
+
+This project is a model-first system, not a UI-first application.
+
+Core constraints:
+- Seat layout must be deterministic and geometry-accurate.
+- Data models define spatial truth; rendering must not encode business logic.
+- Experience attributes (e.g., noise, obstruction, proximity) are metadata layers, not UI hacks.
+- Predictable performance is preferred over visual cleverness.
+- Avoid unnecessary allocations, layout thrashing, or hidden state.
+
+Design expectations:
+- Separate data modeling, layout computation, and rendering concerns.
+- Favor extensibility across aircraft types over one-off solutions.
+- Make performance and memory implications explicit when proposing solutions.
+
+Do not assume airline branding, pricing, booking flows, or product-specific UI conventions.

@@ -1,0 +1,3 @@
+[submodule "FlightSeatKit"]
+	path = FlightSeatKit
+	url = git@github.com:vsmbd/FlightSeatKit.git
